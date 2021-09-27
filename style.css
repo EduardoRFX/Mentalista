@@ -1,0 +1,64 @@
+body{
+    font-family: "Roboto Mono" ,monospace;
+    min-height: 600px;
+    background-image: url("img/background-site.jpg"); 
+    background-color: #000000;
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+}
+
+.container{
+    text-align:center;
+    padding: 20px;
+    height: 100vh;
+}
+
+.page-title{
+    color: #ffffff;
+    margin-top: 0 0 5px;
+}
+
+.page-subtitle{
+    color: #ffffff;
+    margin-top: 16px;
+}
+
+.page-logo{
+    width :200px;
+}
+
+.github-logo{
+    width: 55px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+input {
+    margin: 4px;
+    padding: 6px;
+    border-radius: 5px;
+}
+
+button {
+    margin-top: 12px;
+    padding: 4px 8px;
+    border-radius: 10px;
+    background: #ffffff;
+}
+
+.resultado {
+    color: #ffffff;
+    text-align: center;
+    margin-top: 16px;
+}
+
+.tentativas{
+    color: #ffffff;
+    text-align: center;
+    margin-top:16px;
+}
+
+
+
