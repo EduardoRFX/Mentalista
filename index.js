@@ -3,6 +3,8 @@ console.log(numeroSecreto);
 var tentativas = document.getElementById("tentativas");
 var quantidadeTentativas = 3;
 tentativas.innerHTML = "Você tem " + quantidadeTentativas + " tentativas.";
+document.getElementById("botaoR").disabled = true;
+
 function Chutar(){
     var chute = parseInt(document.getElementById("valor").value);
     var elementoResultado = document.getElementById("resultado");
@@ -25,8 +27,13 @@ function Chutar(){
     if (quantidadeTentativas ==0){
         elementoResultado.innerHTML = "Suas tentativas acabaram!!";
         document.getElementById("botao").disabled = true;
+        document.getElementById("botaoR").disabled = false;
     }
 
+}
+
+function resetar() {
+    location.reload();
 }
 
 
